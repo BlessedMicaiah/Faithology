@@ -1,0 +1,39 @@
+{
+    "doctors": [
+      {
+        "DoctorID": "D101",
+        "DoctorName": "Dr. Sarah Smith",
+        "DoctorPhone": "555-0101",
+        "DoctorEmail": "smith@hospital.com",
+        "Specializations": [
+          {"Specialization": "Cardiology", "Certification": "ABIM-001", "CertDate": "2020-01-15"},
+          {"Specialization": "Internal Medicine", "Certification": "ABIM-002", "CertDate": "2018-06-20"}
+        ],
+        "Departments": [
+          {"DepartmentID": "DEPT01", "DepartmentName": "Cardiology", "DepartmentLocation": "Building A, Floor 3"}
+        ],
+        "Clinics": [
+          {"ClinicID": "CL01", "ClinicName": "Downtown Clinic", "ClinicAddress": "123 Main St", "ClinicPhone": "555-9999", "ConsultationDays": "Mon,Wed,Fri", "ConsultationHours": "9:00-17:00"}
+        ]
+      }
+    ],
+    "patients": [
+      {
+        "PatientID": "P1001",
+        "PatientName": "John Doe",
+        "PatientDOB": "1980-05-15",
+        "PatientPhone": "555-1234",
+        "PatientEmail": "john@email.com",
+        "PatientAddress": "456 Oak St",
+        "EmergencyContact": "Jane Doe",
+        "EmergencyPhone": "555-5678",
+        "Treatments": [
+          {"DoctorID": "D101", "Diagnosis": "Hypertension", "TreatmentDate": "2024-01-10"}
+        ],
+        "Prescriptions": [
+          {"MedicationID": "MED101", "MedicationName": "Lisinopril", "Dosage": "10mg", "Frequency": "Once daily", "PrescriptionDate": "2024-01-10", "PrescriptionEndDate": "2024-07-10"}
+        ]
+      }
+    ]
+  }
+  
